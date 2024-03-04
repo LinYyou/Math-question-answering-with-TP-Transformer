@@ -27,6 +27,11 @@ To download, use the following command:
 ```
 !git clone https://huggingface.co/datasets/LinYyou/TP_Transformers_data
 ```
+## Model Evaluation
+Evaluate the TP-Transformer's performance using our pre-trained model checkpoint. This checkpoint represents 20 hours of training on a Tesla V100 GPU via Google Colab, utilizing 12 million training pairs for optimal accuracy and efficiency. Follow the steps below to download the checkpoint and initiate model testing:
+```
+!git clone https://huggingface.co/datasets/LinYyou/TP_Transformers_data/blob/main/TP_Transfomer.ckpt
+```
 ## References
 - [Enhancing the Transformer with Explicit Relational Encoding for Math Problem Solving](https://arxiv.org/abs/1910.06611)
 - [Mathematics Dataset](https://openreview.net/forum?id=H1gR5iR5FX)
